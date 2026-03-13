@@ -4,3 +4,16 @@ __pycache__/
 .envsync/
 *.pyc
 gist.txt
+
+# Build and distribution artifacts
+build/
+dist/
+*.egg-info/
+
+# Editor and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+.DS_Store

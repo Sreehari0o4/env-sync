@@ -45,6 +45,22 @@ Restore .env
 
 # Installation
 
+## From PyPI (recommended)
+
+Install the EnvSync CLI globally:
+
+```
+pip install envsync0o2
+```
+
+After installation, the CLI is available as:
+
+```
+envsync
+```
+
+## From source
+
 Clone the repository:
 
 ```
