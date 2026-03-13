@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "envsync0o2"
+version = "0.1.0"
+description = "CLI tool to sync .env files securely"
+readme = "README.md"
+requires-python = ">=3.8"
+
+dependencies = [
+    "click",
+    "python-dotenv",
+    "cryptography",
+    "requests"
+]
+
+authors = [{ name = "Sreehari S Kumar" }]
+
+license = { file = "LICENSE" }
+
+[project.urls]
+Homepage = "https://github.com/Sreehari0o4/env-sync"
+Source = "https://github.com/Sreehari0o4/env-sync"
+
+[project.scripts]
+envsync = "envsync.cli:cli"
